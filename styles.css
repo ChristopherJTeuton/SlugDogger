@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ffcc66, #ff99cc);
+    font-family: 'Arial', sans-serif;
+}
+
+#title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 48px;
+    color: #333;
+    margin-top: 20px;
+    text-shadow: 2px 2px #fff, 4px 4px #000;
+}
+
+#gameContainer {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+canvas {
+    display: block;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+#score, #highScore {
+    position: absolute;
+    top: 10px;
+    font-size: 24px;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#score {
+    left: 10px;
+}
+
+#highScore {
+    right: 10px;
+}
+
+#popup {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #000;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+#popup p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#popup button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s;
+}
+
+#popup button:hover {
+    background-color: #45a049;
+}
+
+#retryPopup {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #000;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+
+#retryPopup p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#retryPopup button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s;
+}
+
+#retryPopup button:hover {
+    background-color: #45a049;
+}
