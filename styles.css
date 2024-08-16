@@ -87,6 +87,11 @@ canvas {
     background-color: #45a049;
 }
 
+#funFact {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
 #retryPopup {
     display: none;
     position: absolute;
@@ -120,4 +125,42 @@ canvas {
 
 #retryPopup button:hover {
     background-color: #45a049;
+}
+
+#glossary {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 800px;
+}
+
+#glossary h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#glossaryItems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.glossaryItem {
+    text-align: center;
+    margin: 10px;
+    width: calc(25% - 20px);
+}
+
+.glossaryItem img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.glossaryItem p {
+    margin: 0;
+    font-size: 16px;
 }

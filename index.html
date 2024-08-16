@@ -8,20 +8,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="title">SlugDogger</div>
+    <div id="title">SlugDog on the Streets</div>
     <div id="gameContainer">
         <canvas id="gameCanvas" width="800" height="600"></canvas>
         <div id="score">Score: 0</div>
         <div id="highScore">Highest Score: 0</div>
         <div id="popup">
             <p>Congratulations! Do you want to go to level 2?</p>
-            <button id="yesButton">Yes</button>
-            <button id="noButton">No</button>
+            <div id="funFact"></div> <!-- Added div for fun fact -->
+            <button id="yesButton">Yes, Let's Go!</button>
+            <button id="noButton">No, I'm Done.</button>
         </div>
         <div id="retryPopup">
             <p>Bonk!</p>
             <button id="retryButton">Try Again</button>
         </div>
+    </div>
+    <div id="glossary">
+        <h2>Glossary</h2>
+        <div id="glossaryItems"></div>
     </div>
     <script src="game.js"></script>
 </body>
