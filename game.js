@@ -63,7 +63,8 @@ const glossaryData = [
     { image: 'rock.png', description: 'Red Traffic Cone: An obstacle SlugDog cannot move through, but vehicles can.' },
     { image: 'rock2.png', description: 'Orange Traffic Cone: An obstacle neither vehicles nor SlugDog can move through.' },
     { image: 'easteregg.png', description: 'Magic Bone: A special surprise for Slugdog!' },
-    { image: 'bomb.png', description: 'Bomb: A great way to temporarily stop traffic.' } // Added bomb description
+    { image: 'bomb.png', description: 'Bomb: A great way to temporarily stop traffic.' },
+    { image: 'wasd.png', description: 'WASD: Use these or the arrow keys to move around.' } 
 ];
 
 function createGlossary() {
